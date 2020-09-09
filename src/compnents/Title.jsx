@@ -24,6 +24,7 @@ class Title extends Component {
               {/* </Typing> */}
             </div>
           </div>
+          <div id="rhombus"></div>
         </div>
       </div>
     );

@@ -44,7 +44,8 @@
 .Title #rhombus svg {
   margin-top: 10px;
   font-size: 20px;
-  animation: imganim 1s infinite linear both;
+  animation: imganim 1.2s infinite linear both;
+  color: rgb(62, 100, 255);
 }
 @keyframes imganim {
   from {

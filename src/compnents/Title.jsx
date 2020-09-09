@@ -3,9 +3,12 @@ import "./styles/title.css";
 import Typewriter from "typewriter-effect";
 const textArray = ["Developer", "Swimmer"];
 class Title extends Component {
+  tryFunc = (e) => {
+    console.log(e);
+  };
   render() {
     return (
-      <div className="Title">
+      <div className="Title" onScrollCapture={this.tryFunc}>
         <div className="Title__titleWrapper">
           <div className="Title__introduction">hey! We are</div>
           <div className="Title__mainTitle">Nathalie and Mandeep</div>
@@ -14,7 +17,7 @@ class Title extends Component {
             <div className="Title__dynamicProfession">
               <Typewriter
                 options={{
-                  strings: ["Developer", "Swimmer"],
+                  strings: ["Developer.", "Swimmer."],
                   autoStart: true,
                   loop: true,
                 }}

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class FirstPage extends Component {
+class Title extends Component {
   render() {
     return <div></div>;
   }
 }
 
-export default FirstPage;
+export default Title;

@@ -28,10 +28,11 @@ class Title extends Component {
           <div className="Title__profession">
             I'm a{" "}
             <div className="Title__dynamicProfession">
-              <Typing>
-                <span>{textThatChanges}</span>
-                <Typing.Backspace count={20} />
-              </Typing>
+              {/* <Typing> */}
+              <span>&nbsp;{textThatChanges}</span>
+              {/* <Typing.Backspace count={20} />
+                <Typing.Delay ms={1000} /> */}
+              {/* </Typing> */}
             </div>
           </div>
         </div>

@@ -41,3 +41,16 @@
   transform: rotate(45deg);
   margin-top: 20px;
 }
+.Title #rhombus svg {
+  margin-top: 10px;
+  font-size: 20px;
+  animation: imganim 1s infinite linear both;
+}
+@keyframes imganim {
+  from {
+    transform: translate(0px, 0px) rotate(-45deg);
+  }
+  to {
+    transform: translate(35px, 35px) rotate(-45deg);
+  }
+}

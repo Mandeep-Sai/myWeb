@@ -2,7 +2,7 @@
   font-family: var(--poppins);
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 97vh;
   align-items: center;
   background: linear-gradient(to right, #ebefff 50%, #ffffff 50%);
 }

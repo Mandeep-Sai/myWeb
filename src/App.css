@@ -1,7 +1,9 @@
+body {
+  --poppins: "Poppins", sans-serif;
+}
+
 .App {
   padding: 0px;
   margin: 0px;
-}
-body {
-  --poppins: "Poppins", sans-serif;
+  font-family: var(--poppins) !important;
 }

@@ -7,8 +7,8 @@ class Title extends Component {
     return (
       <div className="Title">
         <div className="Title__titleWrapper">
-          <div className="Title__introduction">hey! I am</div>
-          <div className="Title__mainTitle">Ronaldo Fredrickson</div>
+          <div className="Title__introduction">hey! We are</div>
+          <div className="Title__mainTitle">Nathalie and Mandeep</div>
           <div className="Title__profession">
             I'm a&nbsp;
             <div className="Title__dynamicProfession">

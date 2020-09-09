@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
   },
   navBar: {
     boxShadow: "none !important",
+    background: "linear-gradient(to right, #ebefff 50%, #ffffff 50%)",
   },
 
   title: {
@@ -28,6 +29,10 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "0px",
     paddingRight: "30px",
     paddingLeft: "30px",
+    textTransform: "none",
+    fontSize: "18px",
+    fontWeight: "400",
+    fontFamily: "inherit",
     transition: theme.transitions.create(["width"], {
       duration: theme.transitions.duration.complex,
     }),
@@ -37,14 +42,14 @@ const useStyles = makeStyles((theme) => ({
       display: "block",
       width: "0%",
       paddingTop: "1px",
-      borderBottom: " 3px solid blue",
+      borderBottom: " 3px solid rgb(62, 100, 255)",
     },
     "&:hover&:after": {
       transition: "width 0.5s ",
       width: "100%",
     },
     "&:hover": {
-      backgroundColor: "white",
+      backgroundColor: "transparent",
     },
   },
 }));
@@ -54,7 +59,7 @@ export default function NavBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar className={classes.navBar} position="static" color="transparent">
+      <AppBar className={classes.navBar} position="sticky" color="transparent">
         <Toolbar>
           <Typography variant="h4" className={classes.title}>
             Mandeep

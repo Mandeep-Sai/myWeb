@@ -1,0 +1,39 @@
+.About {
+  padding-top: 4rem;
+}
+.About__header {
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 2rem;
+}
+.About__wrapper {
+  padding-left: 1.3rem;
+}
+.About__description {
+  padding-top: 1.5rem;
+  :line-height: 1.9rem;
+}
+.AboutDetails {
+  padding-top: 3.4rem;
+}
+.AboutDetails__list {
+  line-height: 28.8px;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 0.3rem;
+}
+.AboutDetails__info {
+  line-height: 28.8px;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 0.3rem;
+  color: #9d9d9d;
+}
+.AboutDetails__projectsNb {
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 3rem;
+}
+.AboutDetails__projectsNb span {
+  color: rgb(62, 100, 255);
+}

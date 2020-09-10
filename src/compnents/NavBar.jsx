@@ -21,11 +21,11 @@ const useStyles = makeStyles((theme) => ({
   },
   showNavBar: {
     boxShadow: "none !important",
-    background: "linear-gradient(to right, #ebefff 50%, #ffffff 50%)",
+    background: "#ffffff",
     position: "fixed",
     top: "-30px",
     transform: "translateY(30px)",
-    transition: "transform .5s",
+    transition: "transform 0.7s",
   },
 
   title: {
@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
       borderBottom: " 3px solid rgb(62, 100, 255)",
     },
     "&:hover&:after": {
-      transition: "width 0.5s ",
+      transition: "width 0.4s ",
       width: "100%",
     },
     "&:hover": {
@@ -72,9 +72,8 @@ export default function NavBar() {
   const [navClass, setNavClass] = useState("navBar");
   const handleScroll = () => {
     const currentScrollPos = window.pageYOffset;
-    if (currentScrollPos > 590) {
+    if (currentScrollPos > 580) {
       setNavClass("showNavBar");
-      console.log("here");
     } else {
       setNavClass("navBar");
     }

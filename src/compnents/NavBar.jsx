@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -14,6 +14,18 @@ const useStyles = makeStyles((theme) => ({
   navBar: {
     boxShadow: "none !important",
     background: "linear-gradient(to right, #ebefff 50%, #ffffff 50%)",
+    position: "absolute",
+    top: "0px",
+    transform: "translateY(0%)",
+    transition: "transform .5s",
+  },
+  showNavBar: {
+    boxShadow: "none !important",
+    background: "linear-gradient(to right, #ebefff 50%, #ffffff 50%)",
+    position: "fixed",
+    top: "-30px",
+    transform: "translateY(30px)",
+    transition: "transform .5s",
   },
 
   title: {
@@ -57,9 +69,27 @@ const useStyles = makeStyles((theme) => ({
 export default function NavBar() {
   const classes = useStyles();
 
+  const [navClass, setNavClass] = useState("navBar");
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+    if (currentScrollPos > 590) {
+      setNavClass("showNavBar");
+      console.log("here");
+    } else {
+      setNavClass("navBar");
+    }
+    console.log(currentScrollPos);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className={classes.root}>
-      <AppBar className={classes.navBar} position="sticky" color="transparent">
+      <AppBar
+        className={navClass === "navBar" ? classes.navBar : classes.showNavBar}
+        color="transparent"
+      >
         <Toolbar>
           <Typography variant="h4" className={classes.title}>
             Mandeep

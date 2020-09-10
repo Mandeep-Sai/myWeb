@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row, Button } from "react-bootstrap";
 import "./styles/about.css";
 import AboutDetails from "./AboutDetails";
 
@@ -18,6 +18,7 @@ function About() {
               Temporibus adipisci sunt unde.
             </div>
             <AboutDetails />
+            <Button>Download CV</Button>
           </div>
         </Col>
       </Row>

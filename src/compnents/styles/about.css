@@ -37,3 +37,9 @@
 .AboutDetails__projectsNb span {
   color: rgb(62, 100, 255);
 }
+.About__wrapper button {
+  margin-top: 2rem;
+  border-radius: 50px;
+  padding: 14px;
+  background-color: rgb(62, 100, 255);
+}

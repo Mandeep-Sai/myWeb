@@ -2,13 +2,16 @@ import React from "react";
 import { Container, Col, Row, Button } from "react-bootstrap";
 import "./styles/about.css";
 import AboutDetails from "./AboutDetails";
-
+import CountUp from "react-countup";
 function About() {
   return (
     <Container className="About">
       <Row xs={1} md={2}>
         <Col style={{ paddingRight: "0px" }}>
-          <img src="/personalProfile.jpg" style={{ width: "100%" }} />
+          <img
+            src="/personalProfile.jpg"
+            style={{ width: "100%", height: "95%" }}
+          />
         </Col>
         <Col>
           <div className="About__wrapper">

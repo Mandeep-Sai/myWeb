@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./styles/about.css";
-import details from "./aboutdetails.json";
-
+import CountUp from "react-countup";
 class AboutDetails extends Component {
   render() {
     return (
@@ -25,7 +24,10 @@ class AboutDetails extends Component {
             <div className="AboutDetails__info">+34665190507</div>
           </Col>
           <div className="AboutDetails__projectsNb">
-            <span>120</span> Projects Complete
+            <span>
+              <CountUp start={0} end={100} duration={7} />
+            </span>{" "}
+            Projects Complete
           </div>
         </Row>
       </Container>

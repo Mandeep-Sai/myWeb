@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./styles/about.css";
 import CountUp from "react-countup";
+import "./../../node_modules/animate.css/animate.css";
+import ScrollAnimation from "react-animate-on-scroll";
+import Zoom from "react-reveal/Zoom";
 class AboutDetails extends Component {
   render() {
     return (
@@ -27,7 +30,7 @@ class AboutDetails extends Component {
             <span>
               <CountUp start={0} end={100} duration={7} />
             </span>{" "}
-            Projects Complete
+            <Zoom top>Projects Complete</Zoom>
           </div>
         </Row>
       </Container>

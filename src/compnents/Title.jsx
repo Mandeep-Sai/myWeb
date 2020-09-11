@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import "./styles/title.css";
 import Typewriter from "typewriter-effect";
+import Reveal from "react-reveal";
+import Bounce from "react-reveal/Bounce";
+import RubberBand from "react-reveal/RubberBand";
 const textArray = ["Developer", "Swimmer"];
+
 class Title extends Component {
   tryFunc = (e) => {
     console.log(e);
@@ -10,8 +14,14 @@ class Title extends Component {
     return (
       <div className="Title" onScrollCapture={this.tryFunc}>
         <div className="Title__titleWrapper">
-          <div className="Title__introduction">hey! We are</div>
-          <div className="Title__mainTitle">Nathalie and Mandeep</div>
+          <RubberBand duration={1000}>
+            <div className="Title__introduction">hey! We are</div>
+          </RubberBand>
+
+          <Bounce top cascade delay={1000}>
+            <div className="Title__mainTitle">Nathalie and Mandeep</div>
+          </Bounce>
+
           <div className="Title__profession">
             I'm a&nbsp;
             <div className="Title__dynamicProfession">

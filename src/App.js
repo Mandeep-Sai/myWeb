@@ -5,6 +5,8 @@ import NavBar from "./compnents/NavBar.jsx";
 import Title from "./compnents/Title.jsx";
 import Bio from "./compnents/Bio.jsx";
 import About from "./compnents/About";
+import Logos from "./compnents/Logos";
+import Projects from "./compnents/Projects";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <NavBar />
       <Title />
       <About />
+      <Logos />
+      <Projects />
     </div>
   );
 }

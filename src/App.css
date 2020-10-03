@@ -11,3 +11,26 @@ body {
   height: 1000px;
   background-color: black;
 }
+#logos img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  background-color: #ffffff !important;
+}
+#logos .row {
+  display: flex;
+}
+#logos .col {
+  width: 220px !important;
+}
+#logos .col p {
+  width: 100%;
+  margin: 0px;
+  display: block;
+  text-align: center;
+}
+#projects p {
+  text-align: center;
+  font-family: var(--poppins);
+  font-size: 50px;
+}

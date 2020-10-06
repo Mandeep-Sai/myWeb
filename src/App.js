@@ -7,6 +7,7 @@ import Bio from "./compnents/Bio.jsx";
 import About from "./compnents/About";
 import Logos from "./compnents/Logos";
 import Projects from "./compnents/Projects";
+import Education from "./compnents/Education";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Logos />
       <Projects />
+      <Education />
     </div>
   );
 }

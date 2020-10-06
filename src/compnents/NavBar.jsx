@@ -64,14 +64,42 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "transparent",
     },
   },
+  navItemActive: {
+    display: "flex",
+    flexDirection: "column",
+    borderRadius: "0px",
+    paddingRight: "30px",
+    paddingLeft: "30px",
+    textTransform: "none",
+    fontSize: "18px",
+    fontWeight: "400",
+    fontFamily: "inherit",
+    transition: theme.transitions.create(["width"], {
+      duration: theme.transitions.duration.complex,
+    }),
+
+    "&:after": {
+      content: '" "',
+      display: "block",
+      width: "100%",
+      paddingTop: "1px",
+      borderBottom: " 3px solid rgb(62, 100, 255)",
+      transition: "width 0.4s ",
+    },
+    "&:hover": {
+      backgroundColor: "transparent",
+    },
+  },
 }));
 
 export default function NavBar() {
   const classes = useStyles();
 
   const [navClass, setNavClass] = useState("navBar");
+  const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
     const currentScrollPos = window.pageYOffset;
+    setScrollPosition(currentScrollPos);
     if (currentScrollPos > 580) {
       setNavClass("showNavBar");
     } else {
@@ -97,17 +125,35 @@ export default function NavBar() {
             <Button className={classes.navItem} color="inherit">
               Home
             </Button>
-            <Button className={classes.navItem} color="inherit">
+            <Button
+              className={
+                scrollPosition > 580 && scrollPosition < 1080
+                  ? classes.navItemActive
+                  : classes.navItem
+              }
+              color="inherit"
+            >
               About
             </Button>
-            <Button className={classes.navItem} color="inherit">
-              Resume
-            </Button>
-            <Button className={classes.navItem} color="inherit">
-              Services
-            </Button>
-            <Button className={classes.navItem} color="inherit">
+            <Button
+              className={
+                scrollPosition > 1660 && scrollPosition < 2222
+                  ? classes.navItemActive
+                  : classes.navItem
+              }
+              color="inherit"
+            >
               Projects
+            </Button>
+            <Button
+              className={
+                scrollPosition > 2222 && scrollPosition < 2500
+                  ? classes.navItemActive
+                  : classes.navItem
+              }
+              color="inherit"
+            >
+              Education
             </Button>
             <Button className={classes.navItem} color="inherit">
               Contact

@@ -55,3 +55,22 @@
     transform: translate(35px, 35px) rotate(-45deg);
   }
 }
+.Title #contactIcons {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+  margin-top: 25vh;
+}
+.Title #contactIcons svg {
+  font-size: 50px;
+  color: rgba(62, 100, 255);
+  margin: 10px 0px;
+}
+.Title #contactIcons svg:hover {
+  cursor: pointer;
+  color: rgb(91, 115, 214);
+  transition: color 0.5s ease-in-out;
+}

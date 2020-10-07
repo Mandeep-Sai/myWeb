@@ -8,6 +8,7 @@ import About from "./compnents/About";
 import Logos from "./compnents/Logos";
 import Projects from "./compnents/Projects";
 import Education from "./compnents/Education";
+import Contact from "./compnents/Contact";
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       <NavBar />
       <Title />
       <About />
-      <Logos />
       <Projects />
+      <Logos />
       <Education />
+      <Contact />
     </div>
   );
 }

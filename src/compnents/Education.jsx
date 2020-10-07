@@ -6,7 +6,7 @@ import Bounce from "react-reveal/Bounce";
 
 export default function Education() {
   return (
-    <Container className="mt-5" id="education">
+    <Container className="mt-5 mb-5" id="education">
       <p>Education</p>
       <Bounce left>
         <div>
@@ -46,6 +46,24 @@ export default function Education() {
         </div>
       </Bounce>
       <hr style={{ marginLeft: "10%" }} />
+      <Bounce left delay={500}>
+        <div>
+          <div>
+            <FaUniversity />
+          </div>
+          <div id="details">
+            <p>2013-2017</p>
+            <p>Bachelor's in Mechanical Engineering</p>
+            <p>Lovely Professional University</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              nisi ad officiis cum, perferendis optio. Totam aliquid dolorem
+              quis vel est. Ea deleniti, quo placeat nam modi laudantium
+              explicabo temporibus!
+            </p>
+          </div>
+        </div>
+      </Bounce>
     </Container>
   );
 }

@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
     transition: "transform .5s",
   },
   showNavBar: {
-    boxShadow: "none !important",
     background: "#ffffff",
     position: "fixed",
     top: "-30px",
@@ -137,7 +136,7 @@ export default function NavBar() {
             </Button>
             <Button
               className={
-                scrollPosition > 1660 && scrollPosition < 2222
+                scrollPosition > 1080 && scrollPosition < 1616
                   ? classes.navItemActive
                   : classes.navItem
               }

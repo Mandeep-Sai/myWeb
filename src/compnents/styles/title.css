@@ -56,13 +56,14 @@
   }
 }
 .Title #contactIcons {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 100px;
   display: flex;
   flex-direction: column;
   margin: 0px 50px;
   margin-top: 25vh;
+  z-index: 10;
 }
 .Title #contactIcons svg {
   font-size: 50px;
@@ -71,6 +72,8 @@
 }
 .Title #contactIcons svg:hover {
   cursor: pointer;
-  color: rgb(91, 115, 214);
+  color: rgb(24, 29, 48);
+  transform: scale(1.1);
   transition: color 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }

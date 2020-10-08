@@ -154,9 +154,6 @@ export default function NavBar() {
             >
               Education
             </Button>
-            <Button className={classes.navItem} color="inherit">
-              Contact
-            </Button>
           </div>
         </Toolbar>
       </AppBar>

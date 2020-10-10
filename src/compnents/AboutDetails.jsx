@@ -19,16 +19,16 @@ class AboutDetails extends Component {
             <div className="AboutDetails__list">Phone:</div>
           </Col>
           <Col xs={8}>
-            <div className="AboutDetails__info">Nathalie</div>
-            <div className="AboutDetails__info">27/07/1996</div>
-            <div className="AboutDetails__info">Alicante, Spain</div>
-            <div className="AboutDetails__info">03010</div>
-            <div className="AboutDetails__info">nathaliemekahal@gmail.com</div>
+            <div className="AboutDetails__info">Mandeep</div>
+            <div className="AboutDetails__info">15/08/1996</div>
+            <div className="AboutDetails__info">Hannover, Germany</div>
+            <div className="AboutDetails__info">30419</div>
+            <div className="AboutDetails__info">bandimandeep7@gmail.com</div>
             <div className="AboutDetails__info">+34665190507</div>
           </Col>
           <div className="AboutDetails__projectsNb">
             <span>
-              <CountUp start={0} end={100} duration={7} />
+              <CountUp start={0} end={6} duration={1} />
             </span>{" "}
             <Zoom top>Projects Complete</Zoom>
           </div>

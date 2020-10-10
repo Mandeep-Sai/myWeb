@@ -32,6 +32,8 @@ class Title extends Component {
                   strings: [
                     "MERN Fullstack Developer.",
                     "React Frontend Developer.",
+                    "Swimmer.",
+                    "Gamer."
                   ],
                   autoStart: true,
                   loop: true,

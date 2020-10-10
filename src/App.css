@@ -78,7 +78,9 @@ body {
 #projects .col #details:hover {
   color: white;
 }
-
+#projects .col #details:hover a {
+  color: white;
+}
 #projects .col #details > p:first-of-type {
   margin: 10px 0px 0px 0px;
   text-align: center;
@@ -98,11 +100,14 @@ body {
   padding: 0px 10px;
   font-size: 14px;
 }
-
-#projects .col #details > div > p:hover {
+#projects .col #details > div > a {
+  color: black;
+}
+#projects .col #details > div > a:hover {
   cursor: pointer;
   transform: scale(1.05);
   transition: transform 0.4s ease-in-out;
+  text-decoration: none;
 }
 #education > p {
   text-align: center;

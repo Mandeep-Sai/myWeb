@@ -1,20 +1,21 @@
 .About {
   padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 .About__header {
   font-weight: 700;
   font-size: 50px;
-  padding-top: 2rem;
+  padding-top: 0rem;
 }
 .About__wrapper {
   padding-left: 1.3rem;
 }
 .About__description {
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
   line-height: 1.9rem;
 }
 .AboutDetails {
-  padding-top: 3.4rem;
+  padding-top: 1.4rem;
 }
 .AboutDetails__list {
   line-height: 28.8px;

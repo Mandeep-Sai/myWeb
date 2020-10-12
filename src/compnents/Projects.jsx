@@ -9,7 +9,7 @@ export default function Projects() {
         <Col>
           <div>
             <img
-              src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg"
+              src="https://pbs.twimg.com/media/DVsYI0jWsAc-_dV.jpg"
               alt=""
             />
             <div id="details">
@@ -29,7 +29,7 @@ export default function Projects() {
         <Col>
           <div>
             <img
-              src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg"
+              src="https://open.scdn.co/cdn/images/og-image.64b84348.png"
               alt=""
             />
             <div id="details">
@@ -49,7 +49,7 @@ export default function Projects() {
         <Col>
           <div>
             <img
-              src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg"
+              src="https://neilpatel.com/wp-content/uploads/2017/04/chat.jpg"
               alt=""
             />
             <div id="details">
@@ -69,7 +69,7 @@ export default function Projects() {
         <Col>
           <div>
             <img
-              src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg"
+              src="https://images-eu.ssl-images-amazon.com/images/I/91IHWG8HUNL.png"
               alt=""
             />
             <div id="details">
@@ -87,7 +87,7 @@ export default function Projects() {
         <Col>
           <div>
             <img
-              src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg"
+              src="https://hackster.imgix.net/uploads/attachments/431013/snake_dvlfwCony2.png?auto=compress&w=900&h=675&fit=min&fm=jpg"
               alt=""
             />
             <div id="details">
@@ -106,13 +106,13 @@ export default function Projects() {
         <Col>
           <div>
             <img
-              src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg"
+              src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/04/Best-Code-and-Text-Editors.png"
               alt=""
             />
             <div id="details">
               <p>Online Code Editor</p>
               <p>
-                Avoid the hassle of downloading code editor and settings for a small task or tests. You can compile your HTML,CSS and JS all in single page and see the result.
+                Avoid the hassle of downloading code editor and settings for a small task or tests. At its heart, it allows you to write code in the browser, and see the results of it as you build. 
               </p>
               <div>
                 <a href="https://unruffled-liskov-e0d57c.netlify.app/" target="_blank"><p>Live Demo</p></a>

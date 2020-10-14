@@ -24,7 +24,7 @@ class AboutDetails extends Component {
             <div className="AboutDetails__info">Hannover, Germany</div>
             <div className="AboutDetails__info">30419</div>
             <div className="AboutDetails__info">bandimandeep7@gmail.com</div>
-            <div className="AboutDetails__info">+34665190507</div>
+            <div className="AboutDetails__info">+49 1794253284</div>
           </Col>
           <div className="AboutDetails__projectsNb">
             <span>

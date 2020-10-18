@@ -39,7 +39,7 @@ export default function Projects() {
                 added from Musixmatch API.
               </p>
               <div>
-             {/* <a> <p>Live Demo</p></a> */}
+              <a href="https://spotifyfe.herokuapp.com/" target="_blank"><p>Live Demo</p></a>
               <a href="https://github.com/Mandeep-Sai/Spotify_Redux" target="_blank"> <p>Frontend Code</p></a>
               <a href="https://github.com/Mandeep-Sai/spotify_redux_be" target="_blank"> <p>Backend Code</p></a>
               </div>

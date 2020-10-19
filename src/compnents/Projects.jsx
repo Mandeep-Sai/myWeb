@@ -96,7 +96,7 @@ export default function Projects() {
                Wanna relax your mind for a little bit? Play the Classic Snake Game here and beat the highscores!
               </p>
               <div>
-                <a href="/"><p>Live Demo</p></a>
+                <a href="https://classicsnakegamefe.herokuapp.com/"><p>Live Demo</p></a>
                 <a href="https://github.com/Mandeep-Sai/Classic_Snake_Game" target="_blank"><p>Frontend Code</p></a>
                 <a href="https://github.com/Mandeep-Sai/classic_snake_game_be" target="_blank"> <p>Backend Code</p></a>
               </div>

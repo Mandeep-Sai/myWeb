@@ -67,10 +67,9 @@ class Title extends Component {
               </a>
             </Fade>
             <Fade right delay={500}>
+            <a href="www.linkedin.com/in/mandeep-sai" target="_blank">
               <AiFillLinkedin />
-            </Fade>
-            <Fade right delay={1000}>
-              <SiGmail />
+              </a>
             </Fade>
           </div>
         </div>

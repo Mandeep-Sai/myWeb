@@ -10,12 +10,13 @@ export default function Contact() {
         <a href="https://github.com/Mandeep-Sai" target="_blank">
           <AiFillGithub />
         </a>
-        <a href="">
+        <a style={{color:"white",marginTop:"10px",fontSize:"20px"}} >
+          bandimandeep7@gmail.com
+        </a>
+        <a href="www.linkedin.com/in/mandeep-sai">
           <AiFillLinkedin />
         </a>
-        <a href="">
-          <SiGmail />
-        </a>
+        
       </div>
     </Container>
   );

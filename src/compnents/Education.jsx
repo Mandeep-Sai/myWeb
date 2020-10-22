@@ -18,10 +18,9 @@ export default function Education() {
             <p>Fullstack Web Development</p>
             <p>Strive school</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              dolorum magnam officiis asperiores veritatis voluptas, aspernatur,
-              architecto nemo ullam iusto, consequatur animi facere inventore
-              unde laborum qui nesciunt repellendus illo.
+            Acquired advanced skills in Javascript and also basics of Typescript.
+Built  a few frontend websites with help of REST API's.
+Got familiar with Code Review and PairProgramming while building few team projects.
             </p>
           </div>
         </div>
@@ -37,10 +36,9 @@ export default function Education() {
             <p>Masters's in Computational Methods in Engineering</p>
             <p>Leibniz University</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              nisi ad officiis cum, perferendis optio. Totam aliquid dolorem
-              quis vel est. Ea deleniti, quo placeat nam modi laudantium
-              explicabo temporibus!
+            Fluid flow analysis using Matlab.
+Material Simulation of composite and fibres using ANSYS.
+Risk and reliability analysis of transmission shaft using Matlab.
             </p>
           </div>
         </div>
@@ -56,10 +54,8 @@ export default function Education() {
             <p>Bachelor's in Mechanical Engineering</p>
             <p>Lovely Professional University</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              nisi ad officiis cum, perferendis optio. Totam aliquid dolorem
-              quis vel est. Ea deleniti, quo placeat nam modi laudantium
-              explicabo temporibus!
+            Acquired basic knowledge in C,C++,SQL database.
+Participated in HVC challenge which involves building a Go-Kart in Team.
             </p>
           </div>
         </div>

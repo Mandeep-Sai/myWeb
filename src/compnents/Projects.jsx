@@ -55,7 +55,7 @@ export default function Projects() {
             <div id="details">
               <p>Chat App</p>
               <p>
-                You can chat with your friends and family members.Messages are
+                You can chat with your friends and family members. Messages are
                 saved to database securely.
               </p>
               <div>
@@ -75,7 +75,7 @@ export default function Projects() {
             <div id="details">
               <p>News App</p>
               <p>
-                Want to know what's happening around the world?Visit the website and listen to the news around the world without moving your hand with new VOICE INSTRUCTIONS.
+                Want to know what's happening around the world? Visit the website and listen to the news around the world without moving your hand with new VOICE INSTRUCTIONS.
               </p>
               <div>
                 <a href="https://fervent-ritchie-a3da89.netlify.app/" target="_blank"><p>Live Demo</p></a>

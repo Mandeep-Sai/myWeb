@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../resume.pdf"
 import { Container, Col, Row, Button } from "react-bootstrap";
 import "./styles/about.css";
 import AboutDetails from "./AboutDetails";
@@ -23,7 +24,7 @@ function About() {
           <div className="About__wrapper">
            
             <AboutDetails />
-            <Button>Download CV</Button>
+            <Button><a href={resume} style={{textDecoration:"none",color:"white"}} download="Resume">Download CV</a></Button>
           </div>
         </Col>
       </Row>
